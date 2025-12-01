@@ -1,0 +1,274 @@
+<!-- contacts.html -->
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="http://schema.org/SportsActivityLocation">
+
+<head>
+    <!-- ВРЕМЕННО: Сайт закрыт от индексации -->
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="yandex" content="none">
+    <!-- Для AMP -->
+    <link rel="amphtml" href="https://bro-school.ru/amp-contacts.html">
+
+    <!-- Для Турбо (Yandex) -->
+    <link rel="alternate" type="application/rss+xml" title="Turbo-страницы Bro School"
+        href="https://bro-school.ru/turbo.xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты школы скейтборда Bro School в Москве | Запись на занятия | 7 площадок</title>
+    <meta name="description"
+        content="Контакты школы скейтборда и сноуборда Bro School в Москве. Телефоны, адреса, карта и форма записи на обучение. Метро Курская, Чкаловская.">
+    <meta name="keywords"
+        content="контакты школы скейтборда Москва, запись на занятия скейтбордом, адрес школы Bro School">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "Bro School",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+79661775133",
+        "contactType": "customer service",
+        "areaServed": "RU",
+        "availableLanguage": "Russian"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "улица Ибрагимова д.30",
+        "addressLocality": "Москва",
+        "postalCode": "105318",
+        "addressCountry": "RU"
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo-with-text">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/BROSCHOOLLOGOWhite.png"
+                            alt="Bro School - школа скейтборда и сноуборда в Москве" class="logo-img">
+                    </a>
+                    <div class="logo-main-text">BRO SCHOOL</div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#directions">Направления</a></li>
+                    <li><a href="prices.html">Цены</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <button class="mobile-menu-btn">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contacts-page">
+        <div class="container">
+            <h1 class="page-title">Контакты школы скейтборда Bro School в Москве</h1>
+            <h2>Запись на обучение скейтборду и сноуборду</h2>
+
+            <!-- Верхний ряд: 3 колонки -->
+            <div class="contacts-top-grid">
+                <!-- Левая колонка: Телефоны + Email -->
+                <div class="contact-column">
+                    <div class="contact-card card">
+                        <h2>📞 Телефоны для записи</h2>
+                        <p><a href="tel:+79661775133" class="contact-link">+7 (966) 177-51-33</a></p>
+                        <p><a href="tel:+79998264148" class="contact-link">+7 (999) 826-41-48</a></p>
+                    </div>
+
+                    <div class="contact-card card">
+                        <h2>📧 Email школы</h2>
+                        <p><a href="mailto:Broskateschool@mail.ru" class="contact-link">Broskateschool@mail.ru</a></p>
+                        <p><a href="mailto:anton.shustov@gmail.com" class="contact-link">anton.shustov@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Центральная колонка: Карта -->
+                <div class="contact-column">
+                    <div class="contact-card card">
+                        <h2>🗺️ Мы на карте Москвы</h2>
+                        <div id="yandex-map" style="width: 100%; height: 300px; border-radius: 12px; overflow: hidden;">
+                            <script type="text/javascript" charset="utf-8" async
+                                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acc16ab268b42e880c39043a52850642d5846feca85ee0bdb75322c2921c16c86&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true">
+                                </script>
+                        </div>
+                        <div class="map-actions">
+                            <button onclick="openInYandexMaps()" class="btn btn-primary">Открыть в
+                                Яндекс.Картах</button>
+                            <button onclick="buildRoute()" class="btn btn-outline">Построить маршрут</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Правая колонка: Соцсети + Время работы -->
+                <div class="contact-column">
+                    <div class="contact-card card">
+                        <h2>🌐 Социальные сети</h2>
+                        <div class="social-links-grid">
+                            <a href="https://vk.com/bro_school" class="social-btn" target="_blank" rel="noopener">
+                                <span>VK</span>
+                            </a>
+                            <a href="https://wa.me/79661775133" class="social-btn" target="_blank" rel="noopener">
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="https://t.me/bro_school" class="social-btn" target="_blank" rel="noopener">
+                                <span>Telegram</span>
+                            </a>
+                            <a href="https://www.instagram.com/bro_school" class="social-btn" target="_blank"
+                                rel="noopener">
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card card">
+                        <h2>🕒 Время работы школы</h2>
+                        <p><strong>Пн-Пт:</strong> 10:00 - 22:00</p>
+                        <p><strong>Сб-Вс:</strong> 9:00 - 20:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Основной адрес -->
+            <div class="contact-card card">
+                <h2>📍 Основной адрес школы в Москве</h2>
+                <p>Россия, Москва, улица Ибрагимова д.30</p>
+                <p>🚇 Метро: Курская, Чкаловская</p>
+                <div class="map-actions-small">
+                    <button onclick="openInYandexMaps()" class="btn btn-small">Открыть карту</button>
+                    <button onclick="buildRoute()" class="btn btn-small btn-outline">Маршрут</button>
+                </div>
+            </div>
+
+            <!-- Скейтборд площадки -->
+            <div class="contact-card card">
+                <h2>🛹 Скейтборд - 7 площадок в Москве</h2>
+                <p>📍 Различные площадки для скейтборда в Москве</p>
+                <div class="skate-locations">
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Хорошёво-Мнёвники (МЦК Хорошово)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate1()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Перовский парк (м. Перово)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate2()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Крытый парк (м. Семеновская)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate3()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Черкизовский детский парк (м. Черкизовская)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate4()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Парк Красная Пресня (м. Деловой центр)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate5()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Парк Ходынское поле (м. ЦСКА)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate6()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-info">
+                            <strong>Некрасовка (м. Некрасовка)</strong>
+                        </div>
+                        <button onclick="buildRouteSkate7()" class="btn btn-small btn-outline">Маршрут</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Сноуборд -->
+            <div class="contact-card card">
+                <h2>🏂 Сноуборд обучение в Москве</h2>
+                <p>📍 Адрес для занятий сноубордом</p>
+                <div class="map-actions-small">
+                    <button onclick="buildRouteSnowboard()" class="btn btn-small btn-outline">Проложить маршрут</button>
+                </div>
+            </div>
+
+            <!-- Форма записи -->
+            <div class="contact-form-section" id="form">
+                <h2>Записаться на занятие по скейтборду в Москве</h2>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                    </div>
+                    <select required>
+                        <option value="">Выберите направление</option>
+                        <option>Скейтборд</option>
+                        <option>Сноуборд</option>
+                    </select>
+                    <textarea placeholder="Ваши пожелания или вопросы" rows="5"></textarea>
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/BROSCHOOLLOGOWhite.png" alt="Bro School - школа скейтборда и сноуборда Москва"
+                        class="footer-logo-img">
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-column">
+                        <h4>Навигация</h4>
+                        <a href="index.html">Главная</a>
+                        <a href="prices.html">Цены</a>
+                        <a href="about.html">О нас</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Направления</h4>
+                        <a href="index.html#directions">Скейтборд</a>
+                        <a href="index.html#directions">Сноуборд</a>
+                        <a href="prices.html">Индивидуальные тренировки</a>
+                        <a href="prices.html">Групповые занятия</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Контакты</h4>
+                        <a href="tel:+79661775133">+7 (966) 177-51-33</a>
+                        <a href="mailto:Broskateschool@mail.ru">Broskateschool@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Договор оферты</a>
+                </div>
+                <div class="footer-copy">2024 © Bro School. Все права защищены</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>
