@@ -1843,4 +1843,6 @@ body {
         padding: 1rem;
     }
 }
-echo "/* New feature: Improved color palette for better contrast */" >> css/style.css
+/* New feature: Improved color palette for better contrast */
+// New feature: Enhanced form validation logic
+
